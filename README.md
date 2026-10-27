@@ -1,12 +1,43 @@
 # Hi, I'm Griffin Derr
 
-Finance and Business Information Systems student at **TCU's Neeley School of Business** (Class of 2029). I'm interested in where consulting and AI meet: taking a messy business problem, breaking it into clear steps, and building software that actually helps people do the work.
+Finance and Business Information Systems student at **TCU's Neeley School of Business** (Class of 2029), and Founder & President of the **TCU Consulting Club**. I'm interested in where consulting and AI meet: taking a messy business problem, breaking it into clear steps, and building software that actually helps people do the work.
 
-I founded the **TCU Consulting Club**, consult for nonprofits with **SCNO**, and build most of my projects with Claude and AI agents.
+Right now I'm building **[ANSOFF](https://ansoff-gamma.vercel.app)**, an AI platform for management consultants. I also consult for nonprofits with **SCNO** and build most of my projects with Claude and AI agents.
 
 ---
 
-## Currently building
+## ANSOFF: AI for management consultants
+
+**Live app: [ansoff-gamma.vercel.app](https://ansoff-gamma.vercel.app)** · [ANSOFF on LinkedIn](https://www.linkedin.com/company/ansoffai/)
+
+ANSOFF is to consultants what Harvey AI is to lawyers. You give it one client problem, and it runs the project the way a consulting team would:
+
+1. **Scope** the engagement
+2. Build a **workplan and fee estimate**
+3. Do **cited research** on the market and the client
+4. Write up the **findings**
+5. Rank its **recommendations**
+6. **Export** everything to PowerPoint, Word, and Excel
+
+### How it's built
+
+- **App:** Next.js and TypeScript, deployed on Vercel
+- **Data and auth:** Supabase Postgres with row-level security, so each user's data stays private, plus Supabase Auth
+- **AI layer:** provider-agnostic, so the underlying model can be swapped without rewriting the product
+- **Research:** pulls from Tavily, SEC EDGAR, the World Bank, the IMF, and FRED, and every number is cited to its source
+- **Verification:** an arithmetic checker recomputes totals and growth rates in code instead of trusting the model, and a self-review pass critiques and revises each draft before it's shown
+
+### How it's tested
+
+- **QA gate:** every release has to pass 379 real-client scenarios before it goes live
+- **Model evals:** a set of 1,159 consulting tasks used to compare models head to head. An open model (Kimi K3) scored 82%, ahead of Claude Sonnet 5.5 at 76%
+- **Next step:** training an in-house model so ANSOFF doesn't depend on any one AI provider
+
+*The ANSOFF source code is private.*
+
+---
+
+## Also building
 
 **ClubOS: an AI platform for the TCU Consulting Club** *(in progress)*
 
@@ -36,6 +67,7 @@ Stack: Next.js, TypeScript, Supabase/pgvector, Anthropic API.
 
 | Project | What it does |
 |---|---|
+| **[ANSOFF](https://ansoff-gamma.vercel.app)** | AI platform for management consultants: scope to finished deck, with cited research (live, see above) |
 | **ClubOS** | Multi-agent AI platform for the TCU Consulting Club (in progress, see above) |
 | **[TCU Consulting Club site](https://tcuconsultingclub.com)** | The club's platform, built with AI-assisted development |
 | **Recruiting pipeline** | Tracks firms, contacts, and application stages for consulting recruiting |
@@ -97,4 +129,6 @@ Certified in **Anthropic AI Fluency**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-griffinderr-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/griffinderr/)
 [![Email](https://img.shields.io/badge/Email-griffin.j.derr%40tcu.edu-4D1979?style=flat-square&logo=maildotru&logoColor=white)](mailto:griffin.j.derr@tcu.edu)
+[![ANSOFF](https://img.shields.io/badge/ANSOFF-ansoff--gamma.vercel.app-000000?style=flat-square)](https://ansoff-gamma.vercel.app)
+[![ANSOFF LinkedIn](https://img.shields.io/badge/LinkedIn-ANSOFF-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/ansoffai/)
 [![Website](https://img.shields.io/badge/TCU%20Consulting%20Club-tcuconsultingclub.com-4D1979?style=flat-square)](https://tcuconsultingclub.com)
