@@ -2,13 +2,13 @@
 
 Finance and Business Information Systems student at **TCU's Neeley School of Business** (Class of 2029), and Founder & President of the **TCU Consulting Club**. I'm interested in where consulting and AI meet: taking a messy business problem, breaking it into clear steps, and building software that actually helps people do the work.
 
-Right now I'm building **[ANSOFF](https://ansoff-gamma.vercel.app)**, an AI platform for management consultants. I also consult for nonprofits with **SCNO** and build most of my projects with Claude and AI agents.
+Right now I'm building **[ANSOFF](https://getansoff.com)**, an AI platform for management consultants. I also consult for nonprofits with **SCNO** and build most of my projects with Claude and AI agents.
 
 ---
 
 ## ANSOFF: AI for management consultants
 
-**Live app: [ansoff-gamma.vercel.app](https://ansoff-gamma.vercel.app)** · [ANSOFF on LinkedIn](https://www.linkedin.com/company/ansoffai/)
+**Live app: [getansoff.com](https://getansoff.com)** · [ANSOFF on LinkedIn](https://www.linkedin.com/company/ansoffai/)
 
 ANSOFF is to consultants what Harvey AI is to lawyers. You give it one client problem, and it runs the project the way a consulting team would:
 
@@ -67,7 +67,7 @@ Stack: Next.js, TypeScript, Supabase/pgvector, Anthropic API.
 
 | Project | What it does |
 |---|---|
-| **[ANSOFF](https://ansoff-gamma.vercel.app)** | AI platform for management consultants: scope to finished deck, with cited research (live, see above) |
+| **[ANSOFF](https://getansoff.com)** | AI platform for management consultants: scope to finished deck, with cited research (live, see above) |
 | **ClubOS** | Multi-agent AI platform for the TCU Consulting Club (in progress, see above) |
 | **[TCU Consulting Club site](https://tcuconsultingclub.com)** | The club's platform, built with AI-assisted development |
 | **Recruiting pipeline** | Tracks firms, contacts, and application stages for consulting recruiting |
@@ -129,6 +129,6 @@ Certified in **Anthropic AI Fluency**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-griffinderr-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/griffinderr/)
 [![Email](https://img.shields.io/badge/Email-griffin.j.derr%40tcu.edu-4D1979?style=flat-square&logo=maildotru&logoColor=white)](mailto:griffin.j.derr@tcu.edu)
-[![ANSOFF](https://img.shields.io/badge/ANSOFF-ansoff--gamma.vercel.app-000000?style=flat-square)](https://ansoff-gamma.vercel.app)
+[![ANSOFF](https://img.shields.io/badge/ANSOFF-getansoff.com-000000?style=flat-square)](https://getansoff.com)
 [![ANSOFF LinkedIn](https://img.shields.io/badge/LinkedIn-ANSOFF-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/ansoffai/)
 [![Website](https://img.shields.io/badge/TCU%20Consulting%20Club-tcuconsultingclub.com-4D1979?style=flat-square)](https://tcuconsultingclub.com)
